@@ -8,7 +8,11 @@ To have an easier start for my projects.
 
 # Installation
 Just use it as template.
-`npm install sample`
+
+```
+export TENSORFLOW_LIB_TYPE=gpu
+npm install
+```
 
 # How to use
 ```

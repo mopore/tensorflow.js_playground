@@ -1,19 +1,31 @@
 {
-  "name": "jni-ts-template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tensorflow.js_playground",
+  "version": "0.0.1",
+  "description": "This is just my playground to check out tensorflow.js.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mopore/tensorflow.js_playground"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "rm -rf ./dist && tsc -b"
   },
   "keywords": [],
-  "author": "",
+  "author": "mopore",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.21",
     "@types/node": "^13.7.7",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
-    "typescript": "^3.8.3"
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs-node-gpu": "^3.3.0",
+    "typescript": "^4.2.3"
   }
 }
