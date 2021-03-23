@@ -14,7 +14,11 @@
             "program": "${workspaceFolder}/src/App.ts",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
+            ],
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
             ]
         }
-    ]
+    ],
 }

@@ -1,6 +1,6 @@
 {
   "name": "tensorflow.js_playground",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This is just my playground to check out tensorflow.js.",
   "main": "index.js",
   "repository": {

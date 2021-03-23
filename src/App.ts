@@ -1,4 +1,4 @@
-import { testme } from "./sample/Sample";
+import { testme } from "./sample/ObjectDetectionSample";
 
 console.log('Ready...');
 
