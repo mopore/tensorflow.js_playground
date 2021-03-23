@@ -1,5 +1,17 @@
-# What is this?
+```
+     ▄█ ███▄▄▄▄    ▄█          ▄████████  ▄█  
+    ███ ███▀▀▀██▄ ███         ███    ███ ███  
+    ███ ███   ███ ███▌        ███    ███ ███▌ 
+    ███ ███   ███ ███▌        ███    ███ ███▌ 
+    ███ ███   ███ ███▌      ▀███████████ ███▌ 
+    ███ ███   ███ ███         ███    ███ ███  
+    ███ ███   ███ ███         ███    ███ ███  
+█▄ ▄███  ▀█   █▀  █▀          ███    █▀  █▀   
+▀▀▀▀▀▀                                        
+```
 
+
+# What is this?
 This is a project to get a feeling on how to work with sample/Tensorflow.js.
 ObjectDetectionSample.ts uses the Coco SSD model for object detection to find and classify objects found in the images of the folder "test-images"
 
